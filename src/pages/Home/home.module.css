@@ -1,0 +1,167 @@
+.homepage{
+    display:flex;
+    flex-Direction: column;
+    height:100vh;
+
+}
+
+.header{
+    background:#fff;
+    padding: 3.4rem 0 3.4rem;
+}
+
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+    max-width: 140rem;
+    overflow: hidden;
+}
+
+.header_top{
+display: flex;
+}
+
+.logo{
+    width:50%;
+    border:2px solid blue;
+    display:flex;
+    align-items: center;
+
+}
+.logo_logo{
+    height:5rem;
+    width: 5rem;
+    border: 2px solid gold;
+    margin-right:1rem;
+}
+.location{
+    width:50%;
+    border:2px solid red;
+    display:flex;
+    justify-content: flex-end;
+    
+}
+
+.location_icon{
+    width:3rem;
+    height:3rem;
+    border:2px solid red;
+}
+
+
+.header_bottom{
+    display: flex;
+}
+
+
+.navigation{
+    width:50%;
+    border:2px solid blue;
+}
+.navigation_list{
+    display: flex;
+    list-style: none;
+}
+.navigation_item{
+    font-size:1.6rem;
+    margin-right: 4rem;
+}
+
+.selector{
+    width:50%;
+    border:2px solid red;
+}
+.selector_list{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.selector_item{
+    font-size:1.6rem;
+    margin-left: 4rem;
+}
+
+.showcase{
+    background:gold;
+    flex:1;
+    display:flex;
+}
+.showcase_img{
+    width:50%;
+    border:2px solid red;
+}
+.showcase_img img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.showcase_info{
+    width:50%;
+    border:2px solid blue;
+    padding: 7rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.showcase_info_title{
+    flex:1;
+    border: 2px solid purple;
+    display:flex;
+    align-items: center;
+}
+.title_nummber{
+ font-size:3.2rem;
+ margin-right: 2rem;
+
+}
+.title_divider{
+    font-size:4.2rem;
+    color: white;
+    margin-right: 2rem;
+    margin-bottom:1.5rem;
+}
+.title_name{
+    font-size:3.2rem;
+}
+.showcase_info_description{
+    flex:3;
+    border: 2px solid green;
+    
+}
+.description_bold{
+    font-size:1.6rem;
+    margin-bottom:2rem;
+    padding-top:3.2rem;
+}
+.description_list{
+    font-size:1.4rem; 
+}
+.showcase_info_button{
+    flex:2;
+    border: 2px solid yellowgreen;
+    display:flex;
+    align-items: flex-end;
+}
+.button{
+    border: 2px solid white;
+    height:5rem;
+    width:18rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button p{
+    color:white;
+    font-size:2.0rem;
+}
+
+
+
+@media screen and (max-width: 1025px){
+    .wrapper{
+        width:95%;
+    }
+}
+
